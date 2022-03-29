@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/_health")
 def health():
-    return 200
+    return 2002
