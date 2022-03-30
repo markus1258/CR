@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def blank():
-    return "Yoy"
+    return "Yody"
 
 @app.route("/_health")
 def health():
