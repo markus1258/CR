@@ -8,7 +8,7 @@ def blank():
 
 @app.route("/_health")
 def health():
-    return "200"
+    return "2000"
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0')
