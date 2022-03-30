@@ -10,7 +10,7 @@ def blank():
 
 @app.route("/_health")
 def health():
-    return "200"
+    return "201"
 
 
 if __name__ == "__main__":
