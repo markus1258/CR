@@ -37,5 +37,6 @@ jobs:
       with:
          image: markus1258/crd
          registry: docker.io
+         tags: latest
          username: ${{ secrets.DOCKER_USERNAME }}
          password: ${{ secrets.DOCKER_PASSWORD }}
